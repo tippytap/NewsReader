@@ -1,0 +1,21 @@
+.button{
+	-fx-background-color: white;
+	-fx-font-family: 'Helvetica', sans-serif;
+	-fx-padding: 20;
+}
+
+#copy-link:pressed{
+	-fx-background-color: white, #cccccc; 
+	-fx-background-insets: 0,9 9 8 9,9,10,11;	
+}
+#copy-link:focused{
+	-fx-background: white;
+}
+
+.button:focused{
+	-fx-background-color: white, #cccccc; 
+	-fx-background-insets: 0,9 9 8 9,9,10,11;
+}
+ImageView{
+	-fx-padding: 10;
+}

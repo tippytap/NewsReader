@@ -1,0 +1,79 @@
+h1{
+	font-family: 'Helvetica', sans-serif;
+	line-height: 1.5em;
+	font-size: 1.5em;
+	margin-top: 15px;
+}
+h1+p{
+	margin-top: -10px;
+	margin-bottom: 2em;
+}
+h2{
+	font-family: 'Helvetica', sans-serif;
+	font-size: 1.25em;
+}
+body{
+	font-family: 'Georgia', serif;
+	line-height: 1.5em;
+	padding: 5px;
+	color: #333333;
+	max-width: 100%;
+}
+.author{
+	color: #a1a2a2;
+}
+.contributor{
+	color: #1ba1cd;
+}
+.block-time{
+	font-weight: 700;
+}
+.element-pullquote{
+	float: left;
+	width: 50%;
+	background-color: #D3D3D3;
+	margin: 2px 10px 2px 0;
+	position: relative;
+}
+cite{
+	color: #1ba1cd;
+}
+.element-pullquote:before{
+	content: ' ';
+	width: 26px;
+	height: 21px;
+	background: url(quote.png) 0 0 no-repeat;
+	font-weight: 700;
+	position: absolute;
+	top: 9px;
+	left: 7px;
+}
+.element-pullquote:after{
+	content: ' ';
+	width: 26px;
+	height: 21px;
+	background: url(quote2.png) 0 0 no-repeat;
+	font-weight: 700;
+	position: absolute;
+	bottom: 9px;
+	right: 10px;
+}
+
+.quoted{
+	position: relative;
+	font-style: italic;
+}
+.quoted:before{
+	content: ' ';
+	width: 26px;
+	height: 21px;
+	background: url(quote.png) 0 0 no-repeat;
+	position: absolute;
+	top: 5px;
+	left: -40px;
+}
+
+
+
+
+
